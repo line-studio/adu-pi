@@ -7,6 +7,9 @@ The [Azure Device Update Agent](https://github.com/Azure/iot-hub-device-update) 
 After cloning the repository run following to get started.
 
 ```sh
+mkdir -p build/conf
+sed "s|###TOPDIR###|$(pwd)|g" meta-adu-pi/conf/local.conf > build/conf/local.conf
+sed "s|###TOPDIR###|$(pwd)|g" meta-adu-pi/conf/bblayers.conf > build/conf/bblayers.conf
 echo -n password > priv.pass
 openssl genrsa -aes256 -passout file:priv.pass -out priv.pem
 source poky/oe-init-build-env
