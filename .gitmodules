@@ -1,0 +1,15 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = git://github.com/openembedded/meta-openembedded.git
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = git://github.com/agherzan/meta-raspberrypi.git
+[submodule "meta-swupdate"]
+	path = meta-swupdate
+	url = git://github.com/sbabic/meta-swupdate.git
+[submodule "meta-azure-device-update"]
+	path = meta-azure-device-update
+	url = git@github.com:munit-solutions/meta-azure-device-update.git
