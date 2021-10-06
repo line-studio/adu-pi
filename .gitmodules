@@ -12,4 +12,4 @@
 	url = git://github.com/sbabic/meta-swupdate.git
 [submodule "meta-azure-device-update"]
 	path = meta-azure-device-update
-	url = git@github.com:munit-solutions/meta-azure-device-update.git
+	url = git@github.com:line-studio/meta-azure-device-update.git
